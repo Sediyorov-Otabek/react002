@@ -1,0 +1,185 @@
+.clean {
+  width: 100%;
+  background: #ddd;
+  margin-top: 90px;
+  .clean__wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    .clean__descrpt {
+      display: flex;
+      flex-direction: column;
+      .calean__title {
+        font-size: 40px;
+      }
+      .price {
+        color: rgb(116, 180, 116);
+        font-size: 17px;
+      }
+      padding: 0 50px;
+      .title__wrap {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        // border: 1px solid red;
+        .ttt {
+          display: flex;
+          align-items: center;
+        }
+        .titlechec {
+          gap: 10px;
+          display: flex;
+          width: 100%;
+          justify-content: start;
+          line-height: 2;
+          align-items: center;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 938px) {
+  .clean {
+    width: 100%;
+    background: #ddd;
+    margin-top: 90px;
+    .clean__wrap {
+      display: flex;
+      padding-top: 20px;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      gap: 10px;
+      .clean__descrpt {
+        display: flex;
+        flex-direction: column;
+        .calean__title {
+          font-size: 40px;
+        }
+        .price {
+          color: rgb(116, 180, 116);
+          font-size: 17px;
+        }
+        padding: 0 50px;
+        .title__wrap {
+          margin-top: 50px;
+          display: flex;
+          flex-direction: column;
+          width: 100%;
+          // border: 1px solid red;
+          .ttt {
+            display: flex;
+            align-items: center;
+          }
+          .titlechec {
+            gap: 10px;
+            display: flex;
+            width: 100%;
+            justify-content: start;
+            line-height: 2;
+            align-items: center;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 546px) {
+  .clean {
+    width: 100%;
+    background: #ddd;
+    margin-top: 90px;
+    .clean__wrap {
+      display: flex;
+      padding-top: 20px;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      gap: 10px;
+      .clean__descrpt {
+        display: flex;
+        flex-direction: column;
+        .calean__title {
+          font-size: 40px;
+        }
+        .price {
+          color: rgb(116, 180, 116);
+          font-size: 17px;
+        }
+        padding: 0 50px;
+        .title__wrap {
+          margin-top: 50px;
+          display: flex;
+          flex-direction: column;
+          width: 100%;
+          align-items: start;
+          .ttt {
+            // border: 1px solid red;
+            display: flex;
+            align-items: start;
+            padding-top: 8px;
+          }
+          .titlechec {
+            gap: 10px;
+            display: flex;
+            width: 100%;
+            justify-content: start;
+            line-height: 2;
+            align-items: start;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 422px) {
+  .clean {
+    width: 100%;
+    background: #ddd;
+    margin-top: 90px;
+    .clean__wrap {
+      display: flex;
+      padding-top: 20px;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      gap: 10px;
+      .clean__descrpt {
+        display: flex;
+        flex-direction: column;
+        .calean__title {
+          font-size: 20px;
+        }
+        .price {
+          color: rgb(116, 180, 116);
+          font-size: 17px;
+        }
+        padding: 0 50px;
+        .title__wrap {
+          margin-top: 5px;
+          display: flex;
+          flex-direction: column;
+          width: 100%;
+          align-items: start;
+          .ttt {
+            border: 1px solid red;
+            display: flex;
+            align-items: start;
+            padding-top: 8px;
+          }
+          .titlechec {
+            gap: 10px;
+            display: flex;
+            width: 100%;
+            justify-content: start;
+            line-height: 2;
+            align-items: start;
+          }
+        }
+      }
+    }
+  }
+}
+// border: 1px solid red;

@@ -1,0 +1,124 @@
+.footer {
+  width: 100%;
+  background-color: black;
+  padding: 30px;
+
+  &__wrap {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px 0;
+    justify-content: space-between;
+    align-items: center;
+    // max-width: 1200px;
+    // margin: 0 auto;
+  }
+
+  img {
+    max-width: 100%;
+    // height: auto;
+  }
+  .container {
+    // border: 1px solid red;
+    padding: 0 16px;
+  }
+  &__logo {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    align-items: center;
+    margin-bottom: 1rem;
+
+    p {
+      margin-top: 0.5rem;
+      color: #d6d2d2;
+      font-size: 1rem;
+    }
+  }
+
+  &__collection {
+    list-style: none;
+
+    .footer__item {
+      margin-bottom: 0.5rem;
+
+      p {
+        font-weight: bold;
+        color: #555;
+        margin-bottom: 0.5rem;
+      }
+
+      a {
+        text-decoration: none;
+        color: #e6ecf1;
+        transition: color 0.3s ease;
+
+        &:hover {
+          color: #086bec;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 555px) {
+  .footer {
+    width: 100%;
+    background-color: black;
+
+    &__wrap {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 50px 20px;
+      justify-content: space-between;
+      align-items: start;
+      flex-direction: column;
+      max-width: 1200px;
+      // margin: 0 auto;
+    }
+
+    img {
+      max-width: 100%;
+      // height: auto;
+    }
+    .container {
+      // border: 1px solid red;
+      padding: 0 16px;
+    }
+    &__logo {
+      display: flex;
+      flex-direction: column;
+      width: 30%;
+      align-items: center;
+      margin-bottom: 1rem;
+
+      p {
+        margin-top: 0.5rem;
+        color: #d6d2d2;
+        font-size: 1rem;
+      }
+    }
+
+    &__collection {
+      list-style: none;
+
+      .footer__item {
+        margin-bottom: 0.5rem;
+
+        p {
+          font-weight: bold;
+          color: #555;
+          margin-bottom: 0.5rem;
+        }
+
+        a {
+          text-decoration: none;
+          color: #e6ecf1;
+          transition: color 0.3s ease;
+
+          &:hover {
+            color: #086bec;
+          }
+        }
+      }
+    }
+  }
+}

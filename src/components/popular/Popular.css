@@ -1,0 +1,32 @@
+.popular {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 50px;
+  flex-direction: column;
+}
+.popular .popular__title {
+  font-size: 48px;
+}
+.popular .product__card__wrapp {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 50px;
+  align-items: center;
+  justify-content: center;
+}
+.popular .product__card__wrapp .card__product {
+  width: 255px;
+  background-color: #ddd;
+  box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, 0.24);
+}
+.popular .product__card__wrapp .card__product .card__title {
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+}
+.popular .product__card__wrapp .price {
+  text-align: end;
+  color: rgb(116, 180, 116);
+}/*# sourceMappingURL=Popular.css.map */
