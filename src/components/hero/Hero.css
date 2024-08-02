@@ -140,6 +140,9 @@
   }
 }
 @media (max-width: 438px) {
+  .hero__wrap img {
+    height: 250px;
+  }
   .hero__descrp {
     -webkit-backdrop-filter: blur(20px);
             backdrop-filter: blur(20px);
@@ -150,18 +153,18 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 10px;
+    gap: 5px;
     padding: 10px;
   }
   .hero__descrp .deschero {
-    font-size: 24px;
+    font-size: 18px;
     text-align: center;
   }
   .hero__descrp .ot {
     display: none;
   }
   .hero__descrp b {
-    font-size: 18px;
+    font-size: 15px;
   }
   .hero__descrp p {
     text-align: start;

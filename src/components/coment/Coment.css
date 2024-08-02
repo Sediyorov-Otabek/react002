@@ -47,7 +47,7 @@
     padding-bottom: 40px;
   }
   .comment__wrap .comment__title {
-    font-size: 2rem;
+    font-size: 30px;
   }
   .comment__wrap .comcard__wrap {
     flex-direction: column;
@@ -60,7 +60,7 @@
     padding-bottom: 20px;
   }
   .comment__wrap .comment__title {
-    font-size: 1.5rem;
+    font-size: 18px;
   }
   .comment__wrap .comcard__wrap .comcard {
     padding: 15px 20px;

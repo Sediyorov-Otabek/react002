@@ -135,6 +135,12 @@
   }
 }
 @media (max-width: 438px) {
+  .hero__wrap {
+    img {
+      height: 250px;
+    }
+    // border: 1px solid red;
+  }
   .hero__descrp {
     backdrop-filter: blur(20px);
     background: rgba(243, 242, 241, 0.479);
@@ -144,7 +150,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 10px;
+    gap: 5px;
     padding: 10px;
     .deschero {
       font-size: 18px;
@@ -152,6 +158,7 @@
     }
     .ot {
       display: none;
+      // border: 1px solid red;
     }
     b {
       font-size: 15px;

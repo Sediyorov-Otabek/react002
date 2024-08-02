@@ -29,4 +29,39 @@
 .popular .product__card__wrapp .price {
   text-align: end;
   color: rgb(116, 180, 116);
+}
+
+@media (max-width: 558px) {
+  .popular {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 50px;
+    flex-direction: column;
+  }
+  .popular .popular__title {
+    font-size: 28px;
+  }
+  .popular .product__card__wrapp {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+  .popular .product__card__wrapp .card__product {
+    width: 100%;
+    background-color: #ddd;
+    box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, 0.24);
+  }
+  .popular .product__card__wrapp .card__product .card__title {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+  }
+  .popular .product__card__wrapp .price {
+    text-align: end;
+    color: rgb(116, 180, 116);
+  }
 }/*# sourceMappingURL=Popular.css.map */

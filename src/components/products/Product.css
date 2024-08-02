@@ -29,4 +29,39 @@
 .product__wrap .product__card__wrapp .price {
   text-align: end;
   color: rgb(116, 180, 116);
+}
+
+@media (max-width: 400px) {
+  .product__wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    gap: 20px;
+  }
+  .product__wrap .product__title {
+    font-size: 28px;
+  }
+  .product__wrap .product__card__wrapp {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+  .product__wrap .product__card__wrapp .card__product {
+    width: 45%;
+    background-color: #ddd;
+    box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, 0.24);
+  }
+  .product__wrap .product__card__wrapp .card__product .card__title {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+  }
+  .product__wrap .product__card__wrapp .price {
+    text-align: end;
+    color: rgb(116, 180, 116);
+  }
 }/*# sourceMappingURL=Product.css.map */
